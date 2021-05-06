@@ -11,6 +11,7 @@ tasks:
 # Set the following ports public
 ports:
   - port: 8000
+    onOpen: open-preview
   
 github:
   prebuilds:
